@@ -1,0 +1,123 @@
+/* Write CSS here */
+
+.main-head {
+  color: #333333;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: Roboto;
+  text-align: center;
+  padding-left: 10px;
+}
+
+.stopWatch-card {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stopWatch-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-img-size {
+  width: 20px;
+}
+
+.head-text {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Roboto;
+  padding-left: 5px;
+}
+
+.timer-text {
+  color: #333333;
+  font-size: 30px;
+  font-weight: 800;
+  font-family: Roboto;
+}
+
+.start-btn {
+  background-color: #1db05f;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  font-size: 10px;
+  font-family: Roboto;
+  font-weight: 400;
+  padding: 5px;
+  border-radius: 5px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.stop-btn {
+  background-color: #ef0d36;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  font-size: 10px;
+  font-family: Roboto;
+  font-weight: 400;
+  padding: 5px;
+  border-radius: 5px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.reset-btn {
+  background-color: #eaa800;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  font-size: 10px;
+  font-family: Roboto;
+  font-weight: 400;
+  padding: 5px;
+  border-radius: 5px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    background-size: cover;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  .main-head {
+    font-size: 25px;
+    padding-left: 45px;
+    
+  }
+  .stopWatch-card {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    background-size: cover;
+    min-height: 100vh;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
